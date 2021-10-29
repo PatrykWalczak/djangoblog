@@ -3,6 +3,11 @@ body {
 font-family: 'Lato', sans-serif;
 }
 
+.content {
+    margin: 40px;
+
+}
+
 .header {
 
     padding: 10px;
@@ -11,14 +16,16 @@ font-family: 'Lato', sans-serif;
 }
 
 .post {
-
     padding: 6px;
     margin: 10px;
-
 }
 .post a {
     text-decoration: none;
 }
 a:hover {
+    color: green;
+}
+
+.published {
     color: green;
 }
