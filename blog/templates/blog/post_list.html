@@ -5,7 +5,9 @@
          <div class="col-md-8">
             <div class="post">
                 <p><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a> </p>
-
+                {% if post.image %}
+                    <img src="{{ post.image.url }}" alt="obrazek" width="100px">
+                {% endif %}
                 <p>Utworzony: {{ post.created_date }}</p>
             </div>
          </div>

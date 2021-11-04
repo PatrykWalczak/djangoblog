@@ -8,6 +8,7 @@ class Post(models.Model):
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
+    image = models.ImageField(null=True, blank=True, upload_to='image/')
 
     def publish(self):  # funkcja zajmujaca sie publikacja artykuły ale zrobi to tylko wtedy gdy publish_date bedzie miec przypisana date i godzine
         self.published_date = timezone.now()
