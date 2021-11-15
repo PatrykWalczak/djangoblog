@@ -25,7 +25,7 @@ urlpatterns = [
     path('', include('blog.urls')),
     path('image/', Image.as_view(), name='image'),
     path('image/<int:pk>/', ImageDisplay.as_view(), name='image_display')
-]
+] + static(settings.STATIC_URL, documnet_root=settings.STATIC_ROOT)
 handler404 = 'blog.views.error_404_view'
 
 
