@@ -1,8 +1,8 @@
 ## Table of contents
 
-*[watching added articles on the website](#watching added articles on the website ) 
-*[adding new articles](#adding new articles)  
-*[editing created articles](#editing created articles)
+* watching added articles on the website
+* adding new articles
+* editing created articles 
 
 ## General info
 Djangoblog project was created while passing the course on the website www.strefakursow.pl
