@@ -8,6 +8,6 @@
 Djangoblog project was created while passing the course on the website www.strefakursow.pl
 
 ## Technologies
-Project is created with:
+Project was created with:
 * Python version: 3.9.6
 * Django version: 3.2.9
